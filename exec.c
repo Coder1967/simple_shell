@@ -9,7 +9,7 @@ int exec(char **argv)
 	pid_t pid_child;
 	int status;
 
-	if (strcmp(argv[0], "exit") == 0)
+	if (strncmp("exit", argv[0], 4) == 0)
 	{
 		exit(-1);
 	}
