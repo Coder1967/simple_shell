@@ -1,7 +1,7 @@
 #include "main.h"
 
-/*
- * main - function which calls other function as
+/**
+ *  main - function which calls other function as
  * well as receives arguments for shell
  * @argv: command line arguments
  * @argc: number of command line arguments
