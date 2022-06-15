@@ -22,6 +22,7 @@ int main(int argc, char **argv)
 			perror(argv[0]);
 			exit(-1);
 		}
+		return (0);
 	}
 	buffer = (char *)malloc((bufsize * sizeof(char)));
 	if (buffer == NULL)
